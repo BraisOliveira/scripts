@@ -22,9 +22,9 @@ tracert www.wikipedia.org >> %USERPROFILE%\Desktop\LOG_R.txt
 echo **** 10.0.129.249 **** >> %USERPROFILE%\Desktop\LOG_R.txt
 echo 1
 
-date /t >> %USERPROFILE%\Desktop\R.txt
-time /t  >> %USERPROFILE%\Desktop\R.txt
-echo  >> %USERPROFILE%\Desktop\R.txt
+date /t >> %USERPROFILE%\Desktop\LOG_R.txt
+time /t  >> %USERPROFILE%\Desktop\LOG_R.txt
+echo  >> %USERPROFILE%\Desktop\LOG_R.txt
 
 echo Proceso rematado, pode ver o resultado no log que se creou no seu escritorio chamado R.txt
 
