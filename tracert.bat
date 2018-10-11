@@ -1,6 +1,6 @@
 @echo off
 
-echo Espera un momentito, el proceso esta en marcha.
+echo Agarde un intre, o proceso esta en marcha.
 
 tracert www.wikivoyage.org >> C:\Users\B\Desktop\R.txt
 echo **** 10.0.129.217 **** >> C:\Users\B\Desktop\R.txt
@@ -25,6 +25,6 @@ echo 1
 date /t >> C:\Users\B\Desktop\R.txt
 time /t  >> C:\Users\B\Desktop\R.txt
 echo  >> C:\Users\B\Desktop\R.txt
-echo Proceso terminado Patri, puedes ver el resultado en el log llamado R.txt que se ha creado en tu escritorio.
+echo Proceso rematado, pode ver o resultado no log que se creou no seu escritorio chamado R.txt
 
 pause
