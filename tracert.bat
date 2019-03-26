@@ -1,5 +1,8 @@
 @echo off
 
+title TracProgram
+color 03
+
 echo Agarde un intre, o proceso esta en marcha.
 
 tracert www.wikivoyage.org >> %USERPROFILE%\Desktop\LOG_R.txt
