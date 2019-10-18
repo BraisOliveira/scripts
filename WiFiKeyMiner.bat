@@ -1,9 +1,9 @@
 @echo off
-echo -----------------------------------------------------------------------------
+echo ------------------------------------------------------------------------------
 echo Utilidad para la obtencion sencilla de claves de red  inalambricas en Windows
 echo Brais Oliveira Sanjurjo 												
 echo braisoliveira@protonmail.com
-echo -----------------------------------------------------------------------------
+echo ------------------------------------------------------------------------------
 
 rem net start Wlansvc
 
