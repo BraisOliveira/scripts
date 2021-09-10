@@ -1,3 +1,7 @@
+<#
+.\vboxbak.ps1 -VM 'TESTVM' -Destination D:\Test\TESTVM -Compress -StartAfterBackup -Verbose
+#>
+
 [cmdletBinding()]
 Param
 (
