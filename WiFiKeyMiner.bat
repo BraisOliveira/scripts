@@ -2,10 +2,9 @@
 echo ------------------------------------------------------------------------------
 echo Utilidad para la obtencion sencilla de claves de red  inalambricas en Windows
 echo Brais Oliveira Sanjurjo 												
-echo braisoliveira@protonmail.com
+echo info@braisoliveira.eu
 echo ------------------------------------------------------------------------------
 
-rem net start Wlansvc
 
 title WiFiKeyMiner09
 color 70
@@ -18,12 +17,15 @@ color 70
   
 echo Escoja una de las redes listadas para extraer la contraseña:
  set /p wifi=
+
+echo Red %wifi% seleccionada.
+
 echo Se creara un archivo de texto plano en su escritorio claves.txt
  
 cd %userprofile%\Desktop
-netsh wlan showprofile name=%wifi% key=clear | find "Contenido de la clave" >> claves.txt
-type claves.txt
- 
+echo  Clave %wifi% >> claves.txt
+netsh wlan show profile name=%wifi% key=clear | find "Contenido de la clave" >> claves.txt
+
 echo Pulsa C para Continuar o cualquier otra tecla para salir: 
  set /p sc= 
  
@@ -34,4 +36,3 @@ if %sc%==C (
     	echo Hasta la proxima    
 			)   
 pause
- 
