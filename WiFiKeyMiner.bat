@@ -14,7 +14,7 @@ color 70
   set wifi=
   set sc=
   
-  net wlan show profile
+  netsh wlan show profile
   
 echo Escoja una de las redes listadas para extraer la contraseña:
  set /p wifi=
